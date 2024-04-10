@@ -1,0 +1,20 @@
+---
+layout: null
+---
+{
+    {% for page in site.pages %}
+        {% unless page.url contains '_layouts' or page.url contains '_posts' or page.url contains '_includes' %}
+            "{{ page.url | slugify }}": {
+                "title": "{{ page.title | xml_escape }}",
+                "indicator_type": "{{ page.indicator_type | xml_escape }}",
+                "indicator_class": "{{ page.indicator_class | xml_escape }}",
+                "indicator_text": "{{ page.indicator_text | xml_escape }}",
+                "description": "{{ page.description | xml_escape }}",
+                "category": "{{ page.category | xml_escape }}",
+                "content": "{{ page.content | strip_html | strip_newlines | jsonify }}",
+                "url": "{{ page.url | xml_escape }}"
+            }
+            {% unless forloop.last %},{% endunless %}
+        {% endunless %}
+    {% endfor %}
+}

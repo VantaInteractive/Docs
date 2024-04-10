@@ -1,0 +1,21 @@
+<!-- Footer start -->
+        <footer class="footer bg-header">
+            <div class="footer-left">
+                    <div class="footer-legal">
+                        <p class="footer-copyright-text dm-sans semibold italic">© 2018-{{ site.t[page.lang].present }} Vanta Interactive. {{ site.t[page.lang].allrights }}</p>
+                        <p class="footer-copyright-text footer-link white dm-sans bold">&ensp;|&ensp;</p>
+                        <a class="footer-copyright-text footer-link white link-white dm-sans bold" href="https://legal.vantainteractive.com/2024/03/24/Terms-of-Service">{{ site.t[page.lang].tos }}</a>
+                        <p class="footer-copyright-text footer-link white dm-sans bold">&ensp;|&ensp;</p>
+                        <a class="footer-copyright-text footer-link white link-white dm-sans bold" href="https://legal.vantainteractive.com/2024/03/24/Privacy-Policy">{{ site.t[page.lang].privacy }}</a>
+                        <p class="footer-copyright-text footer-link white dm-sans bold">&ensp;|&ensp;
+                        <a class="footer-copyright-text footer-link white link-white dm-sans bold" href="https://status.vantainteractive.com">{{ site.t[page.lang].status }}</a>
+                    </div>
+            </div>
+        </footer>
+<!-- Footer end -->
+        <script src="{{ site.baseurl }}/js/common.js"></script>
+        <script src="{{ site.baseurl }}/js/insert-banners.js"></script>
+        <script src="{{ site.baseurl }}/js/logo-change.js"></script>
+        {% if page.toc %}<script src="{{ site.baseurl }}/js/sticky-header.js"></script>{% endif %}
+        <script src="{{ site.baseurl }}/js/highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>

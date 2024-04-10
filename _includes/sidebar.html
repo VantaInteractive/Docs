@@ -1,0 +1,66 @@
+<div class="sidebar padding-1rem height-100 z-index50" id="sidebar">
+    <div class="flex row space-evenly">
+                <div class="sidebar-branding flex" id="sidebar-branding">
+                    <a href="https://vantainteractive.com/{{ page.lang }}/" id="branding-logo">
+                    <img class="header-logo z-index100" id="logo" src="{{ site.baseurl }}/favicon/vi-logo-big-wh.png" alt="VI brand image"/></a>
+                    <div class="header-spacing"></div>
+                    <a href="{{ site.baseurl }}/{{ page.lang }}" id="branding-name"><p class="header-branding outfit white rem3 semibold">{{ site.t[page.lang].docs }}</p></a>
+                    <button class="sidebar-collapser monospace semibold header-button reader-dark rem1" type="button" onclick="sidebarCollapseButton()" id="sidebarCollapseButton" aria-expanded="false">◧</button>
+                </div>
+              </div>
+    <div class="sidebar-content column" id="sidebar-content">
+        <div class="sidebar-dropdown">
+            <button class="outfit semibold sidebar-dropdown-toggle rem1" type="button" onclick="sidebarProjectDropdownBtn()" id="projectDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">{% if page.sidebar_topic == 'API' %}API
+                 {% elsif page.sidebar_topic == 'Branding' %}Branding
+                 {% elsif page.sidebar_topic == 'cG' %}cG
+                 {% elsif page.sidebar_topic == 'hG' %}hG
+                 {% elsif page.sidebar_topic == 'iS' %}iS
+                 {% elsif page.sidebar_topic == 'mb' %}mb
+                 {% elsif page.sidebar_topic == 'Morel' %}Morel
+                 {% elsif page.sidebar_topic == 'Mountain' %}Mountain
+                 {% elsif page.sidebar_topic == 'Odyssey' %}Odyssey
+                 {% elsif page.sidebar_topic == 'Sapphire' %}Sapphire
+                 {% elsif page.sidebar_topic == 'sl' %}sl
+                 {% elsif page.sidebar_topic == 'tg' %}tg
+                 {% elsif page.sidebar_topic == 'vc' %}vc
+                 {% elsif page.sidebar_topic == 'vg' %}vg
+                 {% elsif page.sidebar_topic == 'Websites' %}Websites
+                 {% else %}Choose a topic...{% endif %}</button>
+            <div class="sidebar-dropdown-content z-index100 column" id="projectDropdownMenu" aria-labelledby="projectDropdown">
+                <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="api">API</a>
+                <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="branding">Branding</a>
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="cG">cG</a>  -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="hg">hg</a>  -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="iS">iS</a>  -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="mb">mb</a>  -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="morel">Morel</a> -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="mountain">Mountain</a> -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="odyssey">Odyssey</a> -->
+                <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="sapphire">Sapphire</a>
+                <!-- <a class="sidebar-dropdown semibold-item z-index100" href="#" data-project="sl">sl</a> -->
+                <!-- <a class="sidebar-dropdown semibold-item z-index100" href="#" data-project="tg">tg</a> -->
+                <!-- <a class="sidebar-dropdown semibold-item z-index100" href="#" data-project="vc">vc</a> -->
+                <!-- <a class="sidebar-dropdown-item semibold z-index100" href="#" data-project="vg">vg</a> -->
+                <a class="sidebar-dropdown-item semibold z-index100 href="#" data-project="websites">Websites</a>
+            </div>
+        </div>
+        {% if page.sidebar_topic %}
+            <div class="sidebar-list">
+                <!-- Render content based on the selected topic -->
+                {% if page.sidebar_topic == 'API' %}
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/api/">API Overview</a>
+                {% elsif page.sidebar_topic == 'Branding' %}
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/branding/">VI Branding</a>
+                {% elsif page.sidebar_topic == 'Sapphire' %}
+                <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/sapphire/">Sapphire Overview</a>
+                {% elsif page.sidebar_topic == 'Websites' %}
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/websites/main">VI Website</a>
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/websites/docs">VI Docs</a>
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/websites/legal">VI Legal</a>
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/websites/status">VI Status</a>
+                    <a class="header-button monospace medium" href="{{ site.baseurl }}/{{ page.lang }}/websites/support">VI Support</a>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</div>

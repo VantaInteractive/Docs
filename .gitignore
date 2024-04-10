@@ -1,0 +1,87 @@
+# raccoon production .gitignore file
+# The following will be excluded:
+
+# (testing and development)
+.hintrc
+/.ignore/
+.vscode
+_elements.txt
+/searchlight/
+/no-cors-test.html
+
+# -- Jekyll --
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# -- Other pages, folders --
+/downloads/
+search.html
+
+# -- Favicons --
+/favicon/vi-logo-big-hngo.png
+/favicon/vi-logo-small-hngo.png
+/favicon/vi-logo-big-odr.png
+/favicon/vi-logo-small-odr.png
+/favicon/vi-logo-big-mntg.png
+/favicon/vi-logo-small-mntg.png
+/favicon/vi-logo-big-vidy.png
+/favicon/vi-logo-small-vidy.png
+
+# -- Fonts --
+/fonts/BebasNeue/
+/fonts/CascadiaCode/
+/fonts/FAT/
+/fonts/kiloton/
+/fonts/Molot/
+/fonts/Pixeloid/
+/fonts/PlexMono/
+/fonts/TechnaSans-Regular.otf
+
+# -- Game pages --
+Project-Anubis.html
+Project-Hangar.html
+Project-Jailbird.html
+Project-Mountain.html
+Project-Odyssey.html
+Project-Vidal.html
+
+# -- Posts --
+
+# -- Projects folders --
+
+# -- Documentation --
+# Moved to docs.vantainteractive.com
+
+# -- Support --
+# Moved to support.vantainteractive.com
+
+# -- CMS --
+# CMS is not used anymore since the migration to Jekyll
+/css/obisidian-design-cms.css
+/cms/
+/cms/saved/
+/cms/templates/
+/dash/
+cms.js
+dash.js
+server.sh
+server.py
+
+# -- Languages --
+lang-list.txt
+/ar/
+/cn/
+/jp/
+/ko/
+/pt/
+/uk/
+/vi/
+
+# -- Progressive Web App --
+offline.html
+sw.js
+site.webmanifest
+sw.js.map

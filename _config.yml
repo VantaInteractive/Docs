@@ -1,0 +1,57 @@
+title: Docs | Vanta Interactive
+email: business.vantainteractive@gmail.com
+description: >-
+  Official documentation website for Vanta Interactive, the indie game, software and web development studio from Romania.
+baseurl: ""
+url: "https://docs.vantainteractive.com"
+twitter_username: 
+github_username:  VantaInteractive
+
+lang: en
+search: true
+search_full_content: true
+
+lunr:
+  search_within_pages: true
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+include:
+  - _includes
+  - _layouts
+  - _sass
+  - _data
+  - js
+
+collections:
+  en:
+    output: true
+    permalink: /en/:title
+
+
+# Translations
+t:
+  en:
+    # Header, Footer, frequently used
+    docs: Docs
+    posts: Posts
+    toc: Table of Contents
+    projects: Projects
+    games: Games
+    software: Software
+    apps: Apps
+    about: About
+    search: Search
+    tos: Terms of Service
+    privacy: Privacy Policy
+    status: Status
+    present: Present
+    allrights: All rights reserved.
+    readmore: Read More
+    postshead: News straight from the Panopticon
+    pagenotfound: The requested page could not be found.
+    homepage: Return to the home page
+    home: Index
