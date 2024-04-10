@@ -96,6 +96,7 @@
 .post {height: 100%; flex-grow: 1; width: auto; padding: 1rem 1rem 1rem 3rem !important; margin: 0rem 0rem 0rem 1rem !important;}
 .post-header {display: flex; align-items: flex-start; padding: 1rem 1rem 1rem 3rem !important; margin: 0rem 1rem 0rem 0.5rem; background-color: var(--vantagray); width: -moz-available !important; width: -webkit-fill-available !important; width: stretch !important;}
 .post-header-sticky {position: fixed !important; padding: 0rem; top: 1.5rem; transition: transform 0.3s ease-in-out; z-index: 100;}
+.post-header details {overflow-y: auto !important; max-height: 25vh !important; scroll-behavior: smooth;}
 .post-header details a:first-of-type {padding-top: 1.5rem;}
 .post-header details a:last-of-type {padding-bottom: 1.5rem;}
 .post-header details a {text-decoration: none; line-height: 0.25rem !important; position: relative !important;}
