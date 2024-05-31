@@ -19,11 +19,11 @@ toc: <a class="header-button monospace medium" href="#brand-guidelines">Brand Gu
 ## Brand Guidelines
 
 ### Typography
-![An image showing use cases of the Blaec font, used only for the Vanta Interactive logo](https://i.ibb.co/47Vvw1T/VI-Branding-Typeface-Blaec.png "An image showing use cases of the Blaec font, used only for the Vanta Interactive logo")
+![An image showing use cases of the Blaec font, used only for the Vanta Interactive logo]({{ site.baseurl }}/images/docs/branding/VI-Branding-Typeface-Blaec.png "An image showing use cases of the Blaec font, used only for the Vanta Interactive logo")
 
 Primary Font: Blaec is exclusively used in the logo, because of the big, bold, uppercase font face. This creates a simple, yet reusable and recognizable logo that can be used in any situation, while ensuring it's readable.
 
-![An image showing use cases of the Space Mono font](https://i.ibb.co/XVL5jGY/VI-Branding-Typeface-Space-Mono.png "An image showing use cases of the Space Mono font")
+![An image showing use cases of the Space Mono font]({{ site.baseurl }}/images/docs/branding/VI-Branding-Typeface-Space-Mono.png "An image showing use cases of the Space Mono font")
 
 Secondary Font: Space Mono. All Vanta Interactive websites heavily use Space Mono, due to the industrial, retro-futurist 'NASA-like' design evoked by the font, that also complements our brand colors.
 
@@ -43,10 +43,10 @@ Each project within Vanta Interactive may utilize its own typefaces to reflect i
 - Project Jailbird using Kiloton: Bright orange background with white VANTA text and a thick black border
 
 ### Colors
-![An image showing the 4 main colors used by the brand - vantablack, vantagray, light gray and yellow](https://i.ibb.co/5cJ03K3/VI-Branding-Colours.png "An image showing the 4 main colors used by the brand - vantablack, vantagray, light gray and yellow")
+![An image showing the 4 main colors used by the brand - vantablack, vantagray, light gray and yellow]({{ site.baseurl }}/images/docs/branding/VI-Branding-Colours.png "An image showing the 4 main colors used by the brand - vantablack, vantagray, light gray and yellow")
 
 ### Shapes
-![An image showing various shapes that are used in some way, on the website. The shapes are an upside triangle, a circle, a 4-pointed star, an 8-pointed star, a hexagon, an octagon, and an inflated 8-pointed star](https://i.ibb.co/55TQqVS/VI-Branding-Shapes.png "An image showing various shapes that are used in some way, on the website. The shapes are an upside triangle, a circle, a 4-pointed star, an 8-pointed star, a hexagon, an octagon, and an inflated 8-pointed star.")
+![An image showing various shapes that are used in some way, on the website. The shapes are an upside triangle, a circle, a 4-pointed star, an 8-pointed star, a hexagon, an octagon, and an inflated 8-pointed star]({{ site.baseurl }}/images/docs/branding/VI-Branding-Shapes.png "An image showing various shapes that are used in some way, on the website. The shapes are an upside triangle, a circle, a 4-pointed star, an 8-pointed star, a hexagon, an octagon, and an inflated 8-pointed star.")
 
 <img class="shape" src="{{ site.baseurl }}/images/shapes/4Star.png"/>
 <img class="shape" src="{{ site.baseurl }}/images/shapes/8Star.png"/>
@@ -56,7 +56,7 @@ Each project within Vanta Interactive may utilize its own typefaces to reflect i
 <img class="shape" src="{{ site.baseurl }}/images/shapes/UpsideDownTriangle.png"/>
 
 ### Logo
-![A square image showing the white VANTA logo in the middle, surrounded on all sides by smaller logos with different colours and patterns.](https://i.ibb.co/P1d4KzN/VI-Branding-Logos.png "A square image showing the white VANTA logo in the middle, surrounded on all sides by smaller logos with different colours and patterns.")
+![A square image showing the white VANTA logo in the middle, surrounded on all sides by smaller logos with different colours and patterns.]({{ site.baseurl }}/images/docs/branding/VI-Branding-Logos.png "A square image showing the white VANTA logo in the middle, surrounded on all sides by smaller logos with different colours and patterns.")
 Our logo is the cornerstone of our brand identity. It features the distinctive, double-line "VANTA" text in the Blaec font, with deliberate space left out to the right, to evoke a sense of openness and possibility - symbols can be used to fill the empty space, for example. The design resembles a vertical half of an upside-down pyramid, symbolizing our studio's forward-thinking approach and holistic view of our projects. We refer to the upside-down pyramid as a Panopticon, as it's the 'control center', the heart of Vanta Interactive.
 
 *Usage:*

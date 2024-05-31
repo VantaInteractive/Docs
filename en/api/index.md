@@ -18,8 +18,8 @@ sidebar_topic: API
 API that will be used in our games, software and web platforms.
 
 Projects that will likely use the API:
-- Jailbird (post-release)
 - Morel (Core, ...)
 - Mountain
+- Other projects not mentioned
 
 **Coming soon**

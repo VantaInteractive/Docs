@@ -16,10 +16,6 @@ _site
 .jekyll-metadata
 vendor
 
-# -- Other pages, folders --
-/downloads/
-search.html
-
 # -- Favicons --
 /favicon/vi-logo-big-hngo.png
 /favicon/vi-logo-small-hngo.png
@@ -40,48 +36,8 @@ search.html
 /fonts/PlexMono/
 /fonts/TechnaSans-Regular.otf
 
-# -- Game pages --
-Project-Anubis.html
-Project-Hangar.html
-Project-Jailbird.html
-Project-Mountain.html
-Project-Odyssey.html
-Project-Vidal.html
+search.js
+search_data.json
+search.html
+search.md
 
-# -- Posts --
-
-# -- Projects folders --
-
-# -- Documentation --
-# Moved to docs.vantainteractive.com
-
-# -- Support --
-# Moved to support.vantainteractive.com
-
-# -- CMS --
-# CMS is not used anymore since the migration to Jekyll
-/css/obisidian-design-cms.css
-/cms/
-/cms/saved/
-/cms/templates/
-/dash/
-cms.js
-dash.js
-server.sh
-server.py
-
-# -- Languages --
-lang-list.txt
-/ar/
-/cn/
-/jp/
-/ko/
-/pt/
-/uk/
-/vi/
-
-# -- Progressive Web App --
-offline.html
-sw.js
-site.webmanifest
-sw.js.map

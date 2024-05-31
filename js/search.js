@@ -21,6 +21,7 @@ jQuery(function($) {
       this.field('category');
       this.field('description');
       this.field('content', { boost: 10 });
+      this.field('url');
 
       dataArray.forEach(function(data) {
         this.add(data);
@@ -65,7 +66,7 @@ jQuery(function($) {
         }
       });
     } else {
-      $search_results.html('<li>No results found.<br/>Please check spelling, spacing, yada...</li>');
+      $search_results.html('<li>No results found.<br/>Please check your spelling.</li>');
     }
   }
 });
