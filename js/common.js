@@ -1,4 +1,4 @@
-var siteBaseUrl = "http://127.0.0.1:4000/";
+var siteBaseUrl = "https://docs.vantainteractive.com/";
 
 //function langDropdownBtn() {var dropdownMenu = document.getElementById('languageDropdownMenu');dropdownMenu.classList.toggle('flex');};
 //document.addEventListener('click', function(event) {var dropdownButton = document.getElementById('languageDropdownButton');var dropdownMenu = document.getElementById('languageDropdownMenu');if (!dropdownButton.contains(event.target)) {dropdownMenu.classList.remove('show');}});
