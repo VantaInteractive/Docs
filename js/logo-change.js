@@ -1,5 +1,5 @@
 var currentDate = new Date();
-var rootPath = "http://127.0.0.1:4000/favicon/";
+var rootPath = "https://docs.vantainteractive.com/favicon/";
 var logoPride = new Image();var logoLesbian = new Image();var logoGay = new Image();var logoBi = new Image();var logoPan = new Image();var logoTrans = new Image();var logoEnby = new Image();var logoAro = new Image();var logoAce = new Image();
 var logoWh = new Image();var logoMagenta = new Image();var logoHeart = new Image();var logoRomania = new Image();
 var logoHangar = new Image();var logoJailbird = new Image();var logoMountain = new Image();var logoOdyssey = new Image();var logoVidal = new Image();
